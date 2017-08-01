@@ -1,0 +1,2 @@
+baseurl: /jekyll-website-starter-kit
+exclude: ['README.md']
