@@ -9,7 +9,7 @@
 
 ## To clone the project in your local computer
 * Input in your git bash command line ```git clone https://github.com/jaredcomiso/jekyll-website-starter-kit```
-##Alternative way to save in your local computer 
+## Alternative way to save in your local computer 
 * Download the Zip file at [https://github.com/jaredcomiso/jekyll-website-starter-kit/archive/gh-pages.zip]()
 
 ## How to run this project
