@@ -1,4 +1,4 @@
-#<center> Jekyll-website-starter-kit</center>
+# <center> Jekyll-website-starter-kit</center>
 
 ## Prerequisites
 * Install any text editor, much better if code editor (e.g sublime text [http://www.sublimetext.com/3]())
@@ -7,7 +7,7 @@
 * For ios download at [https://git-scm.com/download/mac]()
 * Install Jekyll, the guide for installion is at [https://jekyllrb.com/]()
 
-##To clone the project in your local computer
+## To clone the project in your local computer
 * Input in your git bash command line ```git clone https://github.com/jaredcomiso/jekyll-website-starter-kit```
 ##Alternative way to save in your local computer 
 * Download the Zip file at [https://github.com/jaredcomiso/jekyll-website-starter-kit/archive/gh-pages.zip]()
