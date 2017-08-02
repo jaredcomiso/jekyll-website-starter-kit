@@ -16,64 +16,75 @@
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
     
     <!-- Robot Font -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
+    
+    <!-- Ion Icons -->
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-left" id="logo" href="#intro"><img src="/images/sponsor-98labs-logo.png" style="height:50px; width:150px; margin-top:10px;"></a>
+                </div>
+                
+                <!-- ID'd From the CSS -->
+             
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-left" id="logo" href="#intro"><img src="/img/sponsor-98labs-logo.png" style="height:50px; width:150px; margin-top:10px;"></a>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse ">
+                    <ul class="nav navbar-nav navbar-right margin-top">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="snip1221" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="snip1221" href="#video-landing">Section 2</a>
+                        </li>
+                        <li>
+                            <a class="snip1221" href="#sect-banner">Section 3</a>
+                        </li>
+                        <li>
+                            <a class="snip1221" href="#contact">Section 4</a>
+                        </li>
+                          <li>
+                            <a class="snip1221" href="#last-page">Section 5</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container -->
+        </nav>
+        
+        {{content}}
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right margin-top">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="snip1221" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="snip1221" href="#about">Section 2</a>
-                    </li>
-                    <li>
-                        <a class="snip1221" href="#services">Section 3</a>
-                    </li>
-                    <li>
-                        <a class="snip1221" href="#contact">Section 4</a>
-                    </li>
-                      <li>
-                        <a class="snip1221" href="#last-page">Section 5</a>
-                    </li>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    
-    {{content}}
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/scrolling-nav.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/scrolling-nav.js"></script>
+        <!-- Particles JavaScript-->
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
 
-    <!-- Particles JavaScript-->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+        <!-- Image Slider JavaScript -->
+        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
 </body>
 

@@ -35,9 +35,13 @@ html {
     height: 100%;
     text-align: center;
     background: #eee;
-}
+   justify-content:center;
+    align-items: center;
+  }
+
 
 .services-section {
+
     height: 100%;
     text-align: center;
     background: #fff;
@@ -55,12 +59,17 @@ html {
     background: #fff;
 }
 .margin-top{
-    margin-top:20px;
+    margin-top:5px;
 }
 #particles-js{
     width:100%;
     height:100%;
     position:absolute;
+}
+
+.intro-section button{
+   position:relative;
+    z-index:50;
 }
 
 /* -- hover effects in buttons --*/
@@ -101,17 +110,51 @@ html {
   bottom:-50px;
 }
 
-/* FOR SCROLLING SMOOTH */
+/* FOR VIDEOS */
 
-a[ id= "logo" ]:target ~ #intro article.panel {
--webkit-transform: translateY( 0px);
-transform: translateY( 0px );
+#video-landing {
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
 }
-a[ id= "EXE_DIV2" ]:target ~ #EXE_MAIN article.panel {
--webkit-transform: translateY( -500px );
-transform: translateY( -500px );
+
+#video-landing video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: -150px;
+  left: 0;
+  bottom: -150px;
+  right: 0;
+  z-index: -100;
 }
-a[ id= "EXE_DIV3" ]:target ~ #EXE_MAIN article.panel {
--webkit-transform: translateY( -1000px );
-transform: translateY( -1000px );
+
+.center-text-in-video{
+  font-size: 2em;
+  text-align: center;
+  margin-top:200px;
 }
+
+/* BANNER */
+#sect-banner{
+  height:100%;
+  position: relative;
+  overflow-y: hidden;
+}
+
+
+/* FOOTER */
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+/* SCROLLS */
+
