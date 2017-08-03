@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Final Project - OJT</title>
+    <title>Jekyll Website Starter Kit</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,7 @@
     <!-- Ion Icons -->
     <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -37,31 +38,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-left" id="logo" href="#intro"><img src="/images/sponsor-98labs-logo.png" style="height:50px; width:150px; margin-top:10px;"></a>
+                    <a class="navbar-left page-scroll" id="logo" href="#intro"><img src="/images/sponsor-98labs-logo.png" style="height:50px; width:150px; margin-top:10px; margin:20px 0;"></a>
                 </div>
-                
-                <!-- ID'd From the CSS -->
-             
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse ">
                     <ul class="nav navbar-nav navbar-right margin-top">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a class="snip1221" href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="snip1221" href="#video-landing">Section 2</a>
-                        </li>
-                        <li>
-                            <a class="snip1221" href="#sect-banner">Section 3</a>
-                        </li>
-                        <li>
-                            <a class="snip1221" href="#contact">Section 4</a>
-                        </li>
-                          <li>
-                            <a class="snip1221" href="#last-page">Section 5</a>
-                        </li>
+                         <li class="hidden">
+                        <a class="page-scroll snip1221" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll snip1221" href="#about">Section 2</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll snip1221" href="#services">Section 3</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll snip1221" href="#contact">Section 4</a>
+                    </li>
+                      <li>
+                        <a class="page-scroll snip1221" href="#last-page">Section 5</a>
+                    </li>
 
                     </ul>
                 </div>
@@ -69,15 +67,98 @@
             </div>
             <!-- /.container -->
         </nav>
-        
         {{content}}
+        
+        <footer class="footer-first">
+            <div class="container">
+                <div class="row" style="font-size:15px; margin-top:10px;">
+                    <div class="col-md-2 col-md-offset-1">
+                        <p>Header 1</p><br>
+                        <a href="#">Content 1</a><br>
+                        <a href="#">Content 2</a><br>
+                        <a href="#">Content 3</a><br>
+                        <a href="#">Content 4</a><br>
+                    </div>
+                    <div class="col-md-2">
+                        <p>Header 2</p><br>
+                        <a href="#">Content 1</a><br>
+                        <a href="#">Content 2</a><br>
+                    </div>
+                    <div class="col-md-2">
+                        <p>Header 3</p><br>
+                        <a href="#">Content 1</a><br>
+                        <a href="#">Content 2</a><br>
+                    </div>
+                    <div class="col-md-2">
+                        <p>Header 4</p><br>
+                        <a href="#">Content 1</a><br>
+                        <a href="#">Content 2</a><br>
+                        <a href="#">Content 3</a><br>
+                        <a href="#">Content 4</a><br>
+                        <a href="#">Content 5</a><br>
+                        <a href="#">Content 6</a><br>
+                    </div>
+                    <div class="col-md-2">
+                        <p>Header 5</p><br>
+                        <a href="#">Content 1</a><br>
+                        <a href="#">Content 2</a><br>
+                        <a href="#">Content 3</a><br>
+                        <a href="#">Content 4</a><br>
+                    </div>
+                </div>
+                <hr></hr>
+                    <div class="col-md-6" style="font-size:20px; margin-bottom:40px;">
+                        <a href="#">About Google</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#">Terms</a>
+                    </div>
+         </footer>
+        
+        <!-- SECOND OPTION Footer -->
+         <footer class="footer-second">
+            <div class="container">
+                <div class="row" style="font-size:15px; margin-top:10px; font-weight: 900; text-align: left;">
+                    <div class="col-md-8">
+                        AWARDS<span>&nbsp;/&nbsp;</span><a href="#">WINNERS</a><span>&nbsp;/&nbsp;</span><a href="#">SPECIAL KUDOS</a><span>&nbsp;/&nbsp;</span><a href="#">NOMNINEES</a><span>&nbsp;/&nbsp;</span><a href="#">LEADERBOARD</a><span>&nbsp;/&nbsp;</span><a href="#">SUBMIT</a>
+                    </div>
+                </div>
+                <div class="row" style="font-size:15px; margin-top:10px; font-weight: 900; text-align: left;">
+                    <div class="col-md-8">
+                        FEATURES<span>&nbsp;/&nbsp;</span><a href="#">THE DEX</a><span>&nbsp;/&nbsp;</span><a href="#">JOBS</a><span>&nbsp;/&nbsp;</span><a href="#">EVENTS</a><span>&nbsp;/&nbsp;</span><a href="#">DESIGN &amp; DEV FEED</a><span>&nbsp;/&nbsp;</span><a href="#">ARTICLES</a><span>&nbsp;/&nbsp;</span><a href="#">LOGO WALL</a>
+                    </div>
+                    <div class="col-lg-4 icon-style" style="text-align: right;">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i>
+                        <a href="#"><i class="fa fa-google-plus"></i>
+                        <a href="#"><i class="fa fa-pinterest"></i>
+                        <a href="#"><i class="fa fa-wifi"></i>
+                    </div>
+                </div>
+                <div class="row" style="font-size:15px; margin-top:10px; font-weight: 900; text-align: left;">
+                    <div class="col-md-8">
+                        ABOUT<span>&nbsp;/&nbsp;</span><a href="#">CSSDA</a><span>&nbsp;/&nbsp;</span><a href="#">JUDGES</a><span>&nbsp;/&nbsp;</span><a href="#">AWARDS &amp; PRIZES</a><span>&nbsp;/&nbsp;</span><a href="#">SPONSORS</a><span>&nbsp;/&nbsp;</span><a href="#">CONTACT</a><span>&nbsp;/&nbsp;</span><a href="#">TERMS</a><span>&nbsp;/&nbsp;</span><a href="#">CREDITS</a><br><br><br>
+                    </div>
+                </div>
+                <div class="row" style="font-size:15px; margin-top:10px; font-weight: 900; text-align:left;">
+                    <div class="col-md-8">
+                        <p style="color:black;">Copyright &copy; 2012 -2017 CSS Desgin Awards</p>
+                    </div>
+                </div>
+            </div><!-- Container close -->
+         </footer>
+
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
         <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
         <script src="js/scrolling-nav.js"></script>
-
 
         <!-- Particles JavaScript-->
         <script src="js/particles.js"></script>

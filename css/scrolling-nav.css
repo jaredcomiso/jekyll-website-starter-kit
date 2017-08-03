@@ -24,7 +24,7 @@ html {
 
 
 .intro-section {
-    height: 100%;
+  height:100%;
      display: flex;
     justify-content:center;
     align-items: center;
@@ -59,7 +59,7 @@ html {
     background: #fff;
 }
 .margin-top{
-    margin-top:5px;
+    margin-top:20px;
 }
 #particles-js{
     width:100%;
@@ -100,40 +100,39 @@ html {
   right: 0;
 }
 
-/* -- Remove the default background and filter of carousel--*/
-.carousel-control.left, .carousel-control.right{ 
-    background: none !important;
-    filter: progid:none !important;>
-}
 
-.carousel-indicators {
-  bottom:-50px;
-}
 
 /* FOR VIDEOS */
 
-#video-landing {
-  height: 100%;
+.video-landing {
+  height: 900px;
   position: relative;
-  overflow-y: hidden;
   color: white;
+  overflow:hidden;
 }
 
-#video-landing video {
+.video-landing video {
   position: absolute;
   min-height: 100%;
   min-width: 100%;
-  top: -150px;
+  top: -20px;
   left: 0;
-  bottom: -150px;
+  bottom: 0;
   right: 0;
   z-index: -100;
+}
+
+.video-landing h1{
+  font-size: 3em; 
+  position:relative;
+  top:50%;
+  text-align: center;
 }
 
 .center-text-in-video{
   font-size: 2em;
   text-align: center;
-  margin-top:200px;
+  margin-top:400px;
 }
 
 /* BANNER */
@@ -150,11 +149,40 @@ html {
     float: right;
     margin-top: 20px;
 }
-footer {
+.footer-first {
     background-color: #222;
+    color:white;
     padding-bottom: 10px;
-    position: relative;
     text-align: center;
 }
-/* SCROLLS */
 
+/* SECOND FOOTER --- background-color:#a271ec; */
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+.footer-second {
+    background-color:#a271ec;
+    color:white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-second ~ a{
+  color:grey;
+}
+.footer-second ~ span{
+  color:grey;
+}
+.footer-second ~ a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.icon-style{
+  list-style: inline;
+}
+.icon-style a i{
+  padding-right:20px;
+}
