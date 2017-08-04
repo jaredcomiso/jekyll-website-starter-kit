@@ -28,6 +28,6 @@ jekyll serve --watch --baseurl ""
 * For particle.js [https://github.com/VincentGarreau/particles.js/]()
 * For background video [https://codepen.io/anon/pen/oeLPMq]()
 * For image slide show[https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/]()
+* For profile image with captions and icons [https://codepen.io/littlesnippets/pen/VvvEGx]()
 * For maps [https://snazzymaps.com/build-a-map/edit/7466]()
 * To get the API key for map [https://developers.google.com/maps/documentation/javascript/get-api-key]()
-
