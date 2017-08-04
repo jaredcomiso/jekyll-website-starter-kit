@@ -20,3 +20,14 @@
 jekyll serve --watch --baseurl ""
 ```
 4. Go to your web browser and input at the URL [localhost:4000]().
+
+
+## Links that might help:
+* For the scrolling [https://github.com/BlackrockDigital/startbootstrap-scrolling-nav]()
+* For the Roboto font [https://fonts.google.com/specimen/Roboto]()
+* For particle.js [https://github.com/VincentGarreau/particles.js/]()
+* For background video [https://codepen.io/anon/pen/oeLPMq]()
+* For image slide show[https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/]()
+* For maps [https://snazzymaps.com/build-a-map/edit/7466]()
+* To get the API key for map [https://developers.google.com/maps/documentation/javascript/get-api-key]()
+
