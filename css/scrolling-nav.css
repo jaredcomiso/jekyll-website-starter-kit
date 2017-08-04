@@ -99,8 +99,31 @@ html {
   left: 0;
   right: 0;
 }
+/* FOR BUTTONS in every section*/
+.intro-section button{
+  transition: 0.25s;
+}
+.intro-section button:hover{
+  background:#b61924;
+  transition:0.25s;
+}
+.intro-section button a:hover{
+  color:white;
+}
 
 
+
+.video-landing button{
+  background:white;
+  transition: 0.25s;
+}
+.video-landing button:hover{
+  background-color: #b61924;
+  transition:0.25s;
+}
+.video-landing button a:hover{
+  color:white;
+}
 
 /* FOR VIDEOS */
 
@@ -115,7 +138,6 @@ html {
   position: absolute;
   min-height: 100%;
   min-width: 100%;
-  top: -20px;
   left: 0;
   bottom: 0;
   right: 0;
@@ -144,11 +166,7 @@ html {
 
 
 /* FOOTER */
-.social-links {
-    list-style: none;
-    float: right;
-    margin-top: 20px;
-}
+
 .footer-first {
     background-color: #222;
     color:white;
@@ -156,12 +174,19 @@ html {
     text-align: center;
 }
 
-/* SECOND FOOTER --- background-color:#a271ec; */
-.social-links {
-    list-style: none;
-    float: right;
-    margin-top: 20px;
+.footer-first a{
+  color:grey;
+  transition: 0.25s;
 }
+.footer-first a:hover{
+  color:white;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+
+/* SECOND FOOTER --- background-color:#a271ec; */
+
 .footer-second {
     background-color:#a271ec;
     color:white;
@@ -169,20 +194,100 @@ html {
     text-align: center;
 }
 
-.footer-second ~ a{
+.footer-second  a{
+  color:grey;
+  transition:0.25s;
+}
+.footer-second span{
   color:grey;
 }
-.footer-second ~ span{
-  color:grey;
-}
-.footer-second ~ a:hover{
+.footer-second  a:hover{
   color:white;
   text-decoration: none;
+  transition: 0.25s;
 }
+
+.footer-second i{
+  font-size:20px;
+  color:white;
+  transition: 0.25s;
+}
+
+.footer-second i:hover{
+  color:grey;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
 
 .icon-style{
   list-style: inline;
 }
 .icon-style a i{
   padding-right:20px;
+}
+
+
+/* Third Footer */
+.third-footer{
+    background-color: #222;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.number-third{
+  margin-top:30px;
+  color:grey;
+  font-size:20px;
+  text-align: center;
+}
+.third-footer button{
+  background:none;
+  border-color:grey;
+  transition: 0.5s;
+}
+.third-footer button:hover{
+  background-color:none;
+  border-color:white;
+  transition: 0.5s;
+}
+.email-link{
+  color:#8db4c3;
+  transition: 0.5s;
+}
+.email-link:hover{
+  color:white;
+  transition: 0.5s;
+}
+
+.third-footer a i{
+  background-color: black;
+  border:5px solid black;
+  font-size:20px;
+  border-radius: 5px;
+  color:#ADD8E6;
+  transition: 0.25s;
+}
+.third-footer a i:hover{
+  color:white;
+  border:5px solid #00FFFF;
+  background-color: #00FFFF;
+  transition: 0.25s;
+}
+.third-footer .links-bottom a{
+  transition: 0.25s;
+
+}
+.third-footer .links-bottom a:hover{
+  transition: 0.25s;
+  color:#8db4c3;
+  text-decoration: none;
+}
+
+.third-footer .col-md-6 a{
+  transition: 0.25s;
+}
+.third-footer .col-md-6 a:hover{
+  color:blue;
+  transition: 0.25s;
+  text-decoration: none;
 }
