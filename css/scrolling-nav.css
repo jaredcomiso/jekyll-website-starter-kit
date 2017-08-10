@@ -60,6 +60,10 @@ html {
     text-align: center;
     background: #fff;
 }
+.google-api-section{
+  height: 100%;
+  background: #eee;
+}
 .margin-top{
     margin-top:20px;
 }
@@ -128,7 +132,21 @@ html {
   background:#b61924;
   transition:0.5s;
 }
+.google-api-section button{
+  transition: 0.5s;
+}
+.google-api-section button:hover{
+  transition: 0.5s;
+  background:#b61924;
+}
 
+#compose-button{
+  transition: 0.5s;
+}
+#compose-button:hover{
+  transition: 0.5s;
+  background:#b61924;
+}
 
 
 .video-landing a{
@@ -1011,3 +1029,11 @@ textarea.md-textarea {
   min-height: 3rem;
 }
 
+/* GOOGLE API CSS*/
+  iframe {
+        width: 100%;
+        border: 0;
+        min-height: 80%;
+        height: 100%;
+        display: flex;
+      }
