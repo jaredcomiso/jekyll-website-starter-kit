@@ -113,10 +113,10 @@ html {
   color:white;
 }
 
-#unslider .item a{
+#section-4 .item a{
   transition:0.5s;
 }
-#unslider .item a:hover{
+#section-4 .item a:hover{
   transition:0.5s;
   color:white;
   background-color:#b61924;
@@ -258,9 +258,8 @@ html {
   transition: 0.5s;
 }
 .third-footer button:hover{
-  background-color:none;
-  border-color:white;
-  transition: 0.5s;
+ background:#b61924;
+  transition:0.5s;
 }
 .email-link{
   color:#8db4c3;
@@ -506,37 +505,54 @@ figure.snip0067.hover:before {
     margin: 0 auto 2em auto;
   }
 
-  #responsive-02 strong h2{
+  #section-5 strong h2{
     font-size:20px;
     font-weight:600;
   }
 
-   #responsive-02 .content{
+   #section-5 .content{
     font-size:15px;
     font-weight:300;
    }
 
-   #responsive-02 a{
+   #section-5 a{
     font-size:15px;
     transition:0.5s;
     color:blue;
     text-decoration: none;
    }
-   #responsive-02 a:hover{
+   #section-5 a:hover{
     transition: 0.5s;
     color:#ADD8E6;
        }
-#responsive-02 .row{
+  #section-5 .row{
   margin-bottom: 10px;
 }
   /* FOR Images */
   .responsive-logo-images{
   min-height: 100%;
   background: #eee;
-  padding-top:5%;
+  padding-left:80px;
 }
 
-#responsive-logo img{
+#section-6 img{
   max-width: 100%; 
   height: auto; 
+}
+
+ .excess-images image{
+  display:inline-block;
+}
+
+.grayscale{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
 }
