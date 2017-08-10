@@ -121,10 +121,10 @@ html {
   color:white;
   background-color:#b61924;
 }
-.contact-section a{
+.contanct-section input{
   transition: 0.5s;
 }
-.contact-section a:hover{
+.contact-section input:hover{
   background:#b61924;
   transition:0.5s;
 }
